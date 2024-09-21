@@ -1,0 +1,134 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.header{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding:15px;
+    background-color:rgba(219, 4, 4, 0.741);
+    color: white;
+    height:30px;
+}
+.nav-item2 , ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox to align list items horizontally */
+  }
+  .nav-item2 ul li  {
+    margin-right: 20px; /* Add some space between the list items */
+  }
+  .nav-item2 a{
+    color: white;
+    text-decoration: none;
+  }
+  .home
+  {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+  .myphoto{
+    height: 400px;
+    width:500px;
+    border-radius: 50%;
+  }
+
+  .pic{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-size: cover;
+    border:5px solid rgba(133, 237, 41, 0.82);
+}
+.aboutpic{
+  height: 400px;
+  width: 400px;
+}
+.about{
+  /* margin:20px; */
+  display:flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  
+}
+.description{
+  /* margin:50px; */
+  height: 500px;
+  width: 500px;
+  font-size:1.4rem;
+  font-family: Cursive;
+}
+.html,.css,.js,.react,.bootstrap,.java{
+  font-size: 100px;
+ margin-left: 10px;
+}
+.html{
+  color:orangered;
+}
+.css{
+color: blue;
+}
+.js{
+  color: rgb(192, 192, 14);
+}
+.react{
+  color:blue;
+}
+.bootstrap{
+  color: rgb(72, 32, 110);
+}
+.java{
+  color: rgb(46, 80, 192);
+}
+.Skills{
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.Skills ul{
+  list-style-type: none; /* Remove bullet points */
+    display: flex;
+    text-align: center;
+}
+.Skills ul li{
+  margin: 20px;
+  text-align: center;
+}
+.contact{
+  display: flex;
+ justify-content: space-evenly;
+  margin-top: 80px;
+ 
+}
+.info p{
+  font-size: 30px;
+  padding:10px;
+}
+.msg input[type="text"],[type="email"] {
+  height: 30px;
+  width: 300px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.mytitle a, h3, h1{
+  margin: 10px;
+  font-size: 30px;
+}
+.btn{
+  background-color: rgb(202, 14, 14);
+  color:white;
+  border: none;
+  /* width:80px; */
+  padding: 5px;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 20px;
+}
